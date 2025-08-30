@@ -178,6 +178,29 @@ class UserRepository
                 </y:ShapeNode>
               </data>
             </node>
+            <node id="n0::n0::n6">
+              <data key="d5"/>
+              <data key="d6">
+                <y:GenericNode configuration="BevelNode2">
+                  <y:Geometry height="30.0" width="45.0" x="384.63943059751597" y="267.7001629622273"/>
+                  <y:Fill color="#FF9900" transparent="false"/>
+                  <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="23.822265625" x="10.5888671875" xml:space="preserve" y="5.6494140625">مثال <y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+                </y:GenericNode>
+              </data>
+            </node>
+            <node id="n0::n0::n7">
+              <data key="d5"/>
+              <data key="d6">
+                <y:ShapeNode>
+                  <y:Geometry height="30.0" width="112.56" x="852.6180115792811" y="388.71282592445453"/>
+                  <y:Fill color="#FF9900" transparent="false"/>
+                  <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="81.35546875" x="15.602265624999973" xml:space="preserve" y="5.6494140625">UserController<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+                  <y:Shape type="roundrectangle"/>
+                </y:ShapeNode>
+              </data>
+            </node>
           </graph>
         </node>
         <node id="n0::n1" yfiles.foldertype="group">
@@ -473,6 +496,43 @@ class UserController extends Controller
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="104.65456742005676" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n0::n0::e5" source="n0::n0::n6" target="n0::n0::n4">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="75.93833740393762" ty="-85.15962685658809">
+            <y:Point x="333.30109319357837" y="282.7001629622273"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n0::n0::e6" source="n0::n0::n6" target="n0::n0::n3">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="-101.26060073009467" ty="-101.35913857533836">
+            <y:Point x="407.13943059751597" y="391.4133520914706"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n0::n0::e7" source="n0::n0::n7" target="n0::n0::n3">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-89.05966474235441"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
